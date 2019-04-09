@@ -1,7 +1,7 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
+#### This is a fork of [react-native-qrcode](https://github.com/cssivision/react-native-qrcode) with fixes and other enhancements since the original is not maintained anymore.
 
 # react-native-qrcode
-A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
+A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code).
 
 ## Installation
 ```sh
