@@ -1,18 +1,22 @@
-# THIS PROJECT IS NO LONGER MAINTAINED
+#### This is a fork of [react-native-qrcode](https://github.com/cssivision/react-native-qrcode) with fixes and other enhancements since the original is not maintained anymore.
 
 # react-native-qrcode
-A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code), not only support English.
+A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_code).
 
 ## Installation
+
 ```sh
-npm install react-native-qrcode --save
+npm install react-native-qrcode-generator --save
 ```
+
+*(**Note** : If you want to use the original unmaintained package, [visit this link](https://github.com/cssivision/react-native-qrcode)).*
+
 ## Usage
 ```jsx
 'use strict';
 
 import React, { Component } from 'react'
-import QRCode from 'react-native-qrcode';
+import QRCode from 'react-native-qrcode-generator';
 
 import {
     AppRegistry,
@@ -37,7 +41,7 @@ class HelloWorld extends Component {
         <QRCode
           value={this.state.text}
           size={200}
-          bgColor='purple'
+          bgColor='black'
           fgColor='white'/>
       </View>
     );
@@ -66,17 +70,24 @@ AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
 
 module.exports = HelloWorld;
 ```
-## Available Props
 
-prop      | type                 | default value
-----------|----------------------|--------------
-`value`   | `string`             | `http://facebook.github.io/react-native/`
-`size`    | `number`             | `128`
-`bgColor` | `string` (CSS color) | `"#000"`
-`fgColor` | `string` (CSS color) | `"#FFF"`
+#### Output : 
 
 <img src='qrcode.png' height = '256' width = '256'/>
 
-# Licenses
+##
 
-All source code is licensed under the [MIT License](https://github.com/cssivision/react-native-qrcode/blob/master/LICENSE).
+## Available Props
+
+prop      | type                 | Description
+----------|----------------------|--------------
+`value`   | `string`  ( **Default** : `http://facebook.github.io/react-native/` ) | Value of the QRCode. 
+`size`    | `number` ( **Default** : `128` ) | Size of the qrcode / image.
+`bgColor` | `string` ( **Default** : `white` ) | Background Color for the qrcode / image.
+`fgColor` | `string` ( **Default** : `black` ) | Foreground Color for the qrcode / image.
+`getImageOnLoad` | `function` | Returns the base64 png image data *( string )*.
+
+
+## Licenses
+
+All source code is licensed under the [MIT License](https://github.com/rishichawda/react-native-qrcode/blob/master/LICENSE).
