@@ -3,9 +3,12 @@
   "version": "1.1.0",
   "description": "react-native qrocode generator",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rishichawda/react-native-qrcode-generator.git"
+    "url": "ssh://git@github.com/rishichawda/react-native-qrcode-generator.git"
   },
   "keywords": [
     "react-native",
