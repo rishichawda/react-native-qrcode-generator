@@ -6,7 +6,7 @@ A react-native component to generate [QRcode](http://en.wikipedia.org/wiki/QR_co
 ## Installation
 
 ```sh
-npm install react-native-qrcode-generator --save
+npx install-peerdeps --save react-native-qrcode-generator
 ```
 
 *(**Note** : If you want to use the original unmaintained package, [visit this link](https://github.com/cssivision/react-native-qrcode)).*
