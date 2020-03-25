@@ -21,11 +21,11 @@
   },
   "homepage": "https://github.com/rishichawda/react-native-qrcode-generator#readme",
   "dependencies": {
-    "create-react-class": "^15.6.0",
     "prop-types": "^15.5.10",
-    "qr.js": "0.0.0"
+    "create-react-class": "^15.6.3",
+    "qr.js": "^0.0.0"
   },
   "peerDependencies": {
-    "react-native-webview": "^7.0.5"
+    "react-native-webview": "^9.0.1"
   }
 }
