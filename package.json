@@ -3,6 +3,7 @@
   "version": "1.2.1",
   "description": "react-native qrocode generator",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/rishichawda/react-native-qrcode-generator.git"
